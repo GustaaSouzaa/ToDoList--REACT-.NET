@@ -157,3 +157,4 @@ C:\Users\gusta\source\repos\ApiToDoList\ApiToDoList\obj\Debug\net8.0\ApiToDoList
 C:\Users\gusta\source\repos\ApiToDoList\ApiToDoList\obj\Debug\net8.0\ref\ApiToDoList.dll
 C:\Users\gusta\source\repos\ApiToDoList\ApiToDoList\bin\Debug\net8.0\todo-frontend\package-lock.json
 C:\Users\gusta\source\repos\ApiToDoList\ApiToDoList\bin\Debug\net8.0\todo-frontend\package.json
+C:\Users\gusta\source\repos\ApiToDoList\ApiToDoList\obj\Debug\net8.0\ApiToDoList.sourcelink.json

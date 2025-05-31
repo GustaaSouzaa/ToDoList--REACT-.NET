@@ -35,6 +35,18 @@ namespace TodoApi.Controllers
             return todoItem;
         }
 
+        // **NOVO**: GET: api/todoitems/user/{userId}
+        [HttpGet("user/{userId}")]
+        public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodosByUser(int userId)
+        {
+            var todos = await _context.TodoItems
+                .Where(t => t.UserId == userId)
+                .Include(t => t.User)
+                .ToListAsync();
+
+            return Ok(todos);
+        }
+
         // POST: api/todoitems
         [HttpPost]
         public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem)
